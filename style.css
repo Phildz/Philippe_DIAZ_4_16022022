@@ -362,6 +362,15 @@ a:hover {
     z-index: 2;
 }
 
+li {
+    height: 48px;
+}
+
+.col-sm-4 p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
