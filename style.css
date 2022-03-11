@@ -710,7 +710,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto 20px auto;
 }
 
 .sr-only {
@@ -727,11 +727,11 @@ h2 {
     line-height: 1.4em;
 }
 
-#h3-h2 {
+#bloc3-h3-h2 h2, #bloc2-h3-h2 h2{
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333!important;  
 }
 
 .med-width-whitespace {
