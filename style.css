@@ -713,7 +713,7 @@ p {
     margin: 20px auto 20px auto;
 }
 
-.sr-only {
+.sr-only-social {
     position:absolute;
     left:-10000px;
     top:auto;
