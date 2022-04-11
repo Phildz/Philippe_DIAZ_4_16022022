@@ -9,7 +9,8 @@ body {
 
 a,
 button {
-    transition: all .3s ease-in-out;    
+    transition: all .3s ease-in-out;
+    outline: none!important;
 }
 
 a:hover {
@@ -320,20 +321,11 @@ a:hover {
     float: right;
     z-index: 1;
 }
-#nav2{margin-right: 81px;margin-top: -1px;}
-#nav2 li{list-style: none}
-#nav2 a{margin-right: 30px;text-decoration: none}
-#nav-toggle{outline: none}
-
-#imgP2{
-    margin-top: 9px;
-    margin-left: -14px;
-}
 
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;    
+    font-size: 16px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -370,6 +362,15 @@ a:hover {
     z-index: 2;
 }
 
+li {
+    height: 48px;
+}
+
+.col-sm-4 p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -377,8 +378,7 @@ a:hover {
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
-    }    
-
+    }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -467,6 +467,10 @@ nav .caret {
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
+}
+
+button {
+    outline: none!important;
 }
 
 .btn-rd {
@@ -718,36 +722,12 @@ p {
     overflow:hidden;
 }
 
-.sr-only-social{
-    position:absolute;
-    left:10000px;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow: hidden;
-}
-
 h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-#txt-b4-réalisations, #txt-b2-aide{
-    font-size: 22px;
-    color: #575757 !important;
-}
-.col-xs-12 .texte-pdg{
-    font-size: 20px;
-    font-style: italic;
-    color: #575757 !important;
-}
-.col-xs-12 .info-pdg{
-    font-size: 20px;
-    font-style: italic;
-    color: #575757 !important;
-}
-
-#bloc4-h3-h2 h2, #bloc2-h3-h2 h2{
+#bloc3-h3-h2 h2, #bloc2-h3-h2 h2{
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
