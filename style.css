@@ -715,8 +715,7 @@ p {
     top:auto;
     width:1px;
     height:1px;
-    overflow:hidden;
-    color: #000000;
+    overflow:hidden;    
 }
 
 .sr-only-social{
@@ -726,6 +725,7 @@ p {
     width:1px;
     height:1px;
     overflow: hidden;
+    color: #000000;
 }
 
 h2 {
@@ -815,7 +815,7 @@ h4 {
 }
 
 .tc-white {
-    color: #000000!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
