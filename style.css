@@ -656,7 +656,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -724,8 +724,7 @@ p {
     top:auto;
     width:1px;
     height:1px;
-    overflow: hidden;
-    color: #000000;
+    overflow: hidden;   
 }
 
 h2 {
